@@ -1,0 +1,36 @@
+{
+  "name": "alacritty-cli",
+  "version": "1.0.0",
+  "description": "An CLI Application to manager the alacritty terminal",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts --exec ts-node",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogelioTrejo1/alacritty-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogelioTrejo1/alacritty-cli/issues"
+  },
+  "homepage": "https://github.com/rogelioTrejo1/alacritty-cli#readme",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/js-yaml": "^4.0.5",
+    "jest": "^27.4.5",
+    "nodemon": "^2.0.15",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
